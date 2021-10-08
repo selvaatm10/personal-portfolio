@@ -1,0 +1,20 @@
+body{
+    background-image: url(../doc/resume.jpg);
+    background-position: center top;
+    height: 1750px;
+}
+.container{
+    width: 1142px;
+    margin: 0 auto;
+}
+.header{
+    /* background-color: #313c4e; */
+    height: 259px;
+}
+.contact{
+    /* background-color: #222a33; */
+    height: 60px;
+}
+.main-section{
+    background-color: white;
+}
