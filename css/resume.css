@@ -67,35 +67,44 @@
 }
 
 body{
-/* background-image: url(../doc/17.jpg); */
+background-image: url(../doc/17-converted.pdf);
 background-position: center top;
 height: 803px;
-width: 1132px;
+font-family: 'Rubik', sans-serif;
 }
 
 .container{
-    border: 2px solid black;
-    width: 1132px;
-    margin: 0 auto;
-}
-.container{
+    /* border: 2px solid black; */
     width: 1132px;
     height: 803px;
     margin: 0 auto;
 }
 .left-col{
-    margin: 30px;
-    border: 2px solid blue;
-    height: 743px;
-}
-.left-sec{
-    margin: 30px 25px;
-    border: 2px solid red;
-    height: 683px;
+    margin: 8px 15px;
+    /* border: 2px solid blue; */
+    height: 920px;
     background-color: #313c4e;
-    color: white;
 }
 
+.left-sec{
+    margin: 30px 20px;
+    /* border: 2px solid red; */
+    height: 683px;
+    color: white;
+}
+.left-sec li{
+    padding-top: 15px;
+}
+
+.text-center{
+    text-align: center;
+}
+.padding-top{
+    padding-top: 10px;
+}
+.padding-bot{
+    padding-bottom: 10px;
+}
 
 
 .heading-sec{
@@ -104,19 +113,63 @@ width: 1132px;
 .heading-sec h1{
     font-size: 30px;
     color: skyblue;
+    padding-top: 15px;
 }
+.content-sec h2{
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+    font-weight: 900;
+}
+
+
+.left-sec h2:after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 214px;
+    margin-top: 5px;
+    background-color: black;
+}
+.right-sec h2:after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 798px;
+    background-color: black;
+    margin-top: 5px;
+}
+
+.left-sec p{
+    padding-top: 10px;
+}
+.right-sec p{
+    padding-top: 10px;
+}
+
+
 .heading-sec h3{
     padding: 10px 0;
 }
-.contact-sec a{
-    padding: 10px 0;
+.con{
     text-decoration: none;
+    color: white;
+    display: block;
+    padding-bottom: 10px;
+}
+.contact-sec i{
+    padding-right: 10px;
 }
 .content-sec h3{
     margin: 10px 0;
 }
+
+
+
+
+
 .right-sec ul{
     list-style: disc;
+    list-style-position: inside;
 }
 .right-colol ul li{
     list-style-position: inside;
@@ -124,14 +177,14 @@ width: 1132px;
 
 
 .right-col{
-    margin: 30px;
-    border: 2px solid green;
+    margin: 8px 15px;
+    /* border: 2px solid green; */
     height: 743px;
 }
 
 .right-sec{
-    margin: 30px;
-    border: 2px solid red;
+    margin: 30px 10px;
+    /* border: 2px solid red; */
     height: 683px;
 }
 
@@ -142,6 +195,12 @@ width: 1132px;
 .right-sec .sub-highlight-3{
     font-weight: 800;
 }
-.right-col .fc jc-sb{
-    padding: 30px 0;
+
+
+
+.right-sec p{
+    padding-bottom: 10px;
+}
+.right-sec h6{
+    padding-bottom: 10px;
 }
